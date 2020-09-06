@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_87437e43d9374d1d8d775dca3f87ac10 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_87437e43d9374d1d8d775dca3f87ac10" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_87437e43d9374d1d8d775dca3f87ac10 = L.map(
+                                  'map_87437e43d9374d1d8d775dca3f87ac10',
+                                  {center: [32.7174209,-117.1627714],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_636bf6d15f3a4d98b2a94f7f5518171d = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+        
+    
+            var circle_marker_f55143fb758045a9927ea0fcc474b815 = L.circleMarker(
+                [33.2000368,-117.2425355],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_c37f3cdf826b4f44ab61f965ce256361 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f1020dfebbb4dc48917d7cde02ee991 = $('<div id="html_2f1020dfebbb4dc48917d7cde02ee991" style="width: 100.0%; height: 100.0%;">Vista - Cluster 2</div>')[0];
+                popup_c37f3cdf826b4f44ab61f965ce256361.setContent(html_2f1020dfebbb4dc48917d7cde02ee991);
+            
+
+            circle_marker_f55143fb758045a9927ea0fcc474b815.bindPopup(popup_c37f3cdf826b4f44ab61f965ce256361);
+
+            
+        
+    
+            var circle_marker_e3b2aeb360714065b665e34825af0301 = L.circleMarker(
+                [32.8383828,-116.9739167],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_45cfbb454a5e4b8c9be017e481fb5198 = L.popup({maxWidth: '300'});
+
+            
+                var html_fbb6a3a4dad245e0bba4afc01d787746 = $('<div id="html_fbb6a3a4dad245e0bba4afc01d787746" style="width: 100.0%; height: 100.0%;">Santee - Cluster 2</div>')[0];
+                popup_45cfbb454a5e4b8c9be017e481fb5198.setContent(html_fbb6a3a4dad245e0bba4afc01d787746);
+            
+
+            circle_marker_e3b2aeb360714065b665e34825af0301.bindPopup(popup_45cfbb454a5e4b8c9be017e481fb5198);
+
+            
+        
+    
+            var circle_marker_d0e7181a83be41c997490f5300395b0b = L.circleMarker(
+                [32.7947731,-116.9625269],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_7f131cc3094a463d9748a43a0fddec58 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f7ffd019885422595a22130ceccdb64 = $('<div id="html_2f7ffd019885422595a22130ceccdb64" style="width: 100.0%; height: 100.0%;">El Cajon - Cluster 2</div>')[0];
+                popup_7f131cc3094a463d9748a43a0fddec58.setContent(html_2f7ffd019885422595a22130ceccdb64);
+            
+
+            circle_marker_d0e7181a83be41c997490f5300395b0b.bindPopup(popup_7f131cc3094a463d9748a43a0fddec58);
+
+            
+        
+    
+            var circle_marker_be6ee1b3e21946efbc5af7f5cfdf6592 = L.circleMarker(
+                [33.1350206,-117.17433],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_8ccab4701a3346bb9cd2cd5817a623b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e5e1c57934e4679aa773e1bf331f8d0 = $('<div id="html_9e5e1c57934e4679aa773e1bf331f8d0" style="width: 100.0%; height: 100.0%;">San Marcos - Cluster 2</div>')[0];
+                popup_8ccab4701a3346bb9cd2cd5817a623b4.setContent(html_9e5e1c57934e4679aa773e1bf331f8d0);
+            
+
+            circle_marker_be6ee1b3e21946efbc5af7f5cfdf6592.bindPopup(popup_8ccab4701a3346bb9cd2cd5817a623b4);
+
+            
+        
+    
+            var circle_marker_c403b5790bfe4edba70c24248c5e22f2 = L.circleMarker(
+                [32.7174209,-117.1627714],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_3fc4bf4763f447c1addc2a1b3869b341 = L.popup({maxWidth: '300'});
+
+            
+                var html_181cf04d1d354652ba52542aa4543dbb = $('<div id="html_181cf04d1d354652ba52542aa4543dbb" style="width: 100.0%; height: 100.0%;">San Diego - Cluster 2</div>')[0];
+                popup_3fc4bf4763f447c1addc2a1b3869b341.setContent(html_181cf04d1d354652ba52542aa4543dbb);
+            
+
+            circle_marker_c403b5790bfe4edba70c24248c5e22f2.bindPopup(popup_3fc4bf4763f447c1addc2a1b3869b341);
+
+            
+        
+    
+            var circle_marker_b723d0cadc3e4c8cb8aea0c4f2dcb265 = L.circleMarker(
+                [32.5839444,-117.1130849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_059107b717924f739056c95a0c551b9f = L.popup({maxWidth: '300'});
+
+            
+                var html_eabaf8ce87ff4b12b5451bd2f0a93679 = $('<div id="html_eabaf8ce87ff4b12b5451bd2f0a93679" style="width: 100.0%; height: 100.0%;">Imperial Beach - Cluster 2</div>')[0];
+                popup_059107b717924f739056c95a0c551b9f.setContent(html_eabaf8ce87ff4b12b5451bd2f0a93679);
+            
+
+            circle_marker_b723d0cadc3e4c8cb8aea0c4f2dcb265.bindPopup(popup_059107b717924f739056c95a0c551b9f);
+
+            
+        
+    
+            var circle_marker_268624b465bf474e90cff0e3fd12e5e3 = L.circleMarker(
+                [32.6915199,-117.1766947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_c9e2179909244b9fad5568f7249da019 = L.popup({maxWidth: '300'});
+
+            
+                var html_df49a27d4bff45108800eaa80f401cd2 = $('<div id="html_df49a27d4bff45108800eaa80f401cd2" style="width: 100.0%; height: 100.0%;">Coronado - Cluster 1</div>')[0];
+                popup_c9e2179909244b9fad5568f7249da019.setContent(html_df49a27d4bff45108800eaa80f401cd2);
+            
+
+            circle_marker_268624b465bf474e90cff0e3fd12e5e3.bindPopup(popup_c9e2179909244b9fad5568f7249da019);
+
+            
+        
+    
+            var circle_marker_b9c5b948a6c04ce6b12224e7efe0913f = L.circleMarker(
+                [32.9594891,-117.2653146],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_8efd5fd07ee2491e83c52fbed732597e = L.popup({maxWidth: '300'});
+
+            
+                var html_1c59b790b5d245d19b14d486bea42946 = $('<div id="html_1c59b790b5d245d19b14d486bea42946" style="width: 100.0%; height: 100.0%;">Del Mar - Cluster 1</div>')[0];
+                popup_8efd5fd07ee2491e83c52fbed732597e.setContent(html_1c59b790b5d245d19b14d486bea42946);
+            
+
+            circle_marker_b9c5b948a6c04ce6b12224e7efe0913f.bindPopup(popup_8efd5fd07ee2491e83c52fbed732597e);
+
+            
+        
+    
+            var circle_marker_e58da69c5902461ea1a4623877985862 = L.circleMarker(
+                [33.0369867,-117.2919818],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_be1898bf00fa4262a095fffdc5916499 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6fcf0a0fea54477a4b6338d5bc786d7 = $('<div id="html_c6fcf0a0fea54477a4b6338d5bc786d7" style="width: 100.0%; height: 100.0%;">Encinitas - Cluster 1</div>')[0];
+                popup_be1898bf00fa4262a095fffdc5916499.setContent(html_c6fcf0a0fea54477a4b6338d5bc786d7);
+            
+
+            circle_marker_e58da69c5902461ea1a4623877985862.bindPopup(popup_be1898bf00fa4262a095fffdc5916499);
+
+            
+        
+    
+            var circle_marker_00835add0dd44d68bb0965bcef99254e = L.circleMarker(
+                [32.772404,-117.029327],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_3b86eeae4c9b4ccb8098ab381f9a430d = L.popup({maxWidth: '300'});
+
+            
+                var html_bea76a11634d408ebdf05d6a44130964 = $('<div id="html_bea76a11634d408ebdf05d6a44130964" style="width: 100.0%; height: 100.0%;">La Mesa - Cluster 1</div>')[0];
+                popup_3b86eeae4c9b4ccb8098ab381f9a430d.setContent(html_bea76a11634d408ebdf05d6a44130964);
+            
+
+            circle_marker_00835add0dd44d68bb0965bcef99254e.bindPopup(popup_3b86eeae4c9b4ccb8098ab381f9a430d);
+
+            
+        
+    
+            var circle_marker_b485e161f4aa4e4b93c64040a6e4ec85 = L.circleMarker(
+                [33.1580933,-117.3505966],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_3efe80c695fa4059a7a4c1057452ddf9 = L.popup({maxWidth: '300'});
+
+            
+                var html_0bbada22f24343ad97d9aec04462ea3f = $('<div id="html_0bbada22f24343ad97d9aec04462ea3f" style="width: 100.0%; height: 100.0%;">Carlsbad - Cluster 1</div>')[0];
+                popup_3efe80c695fa4059a7a4c1057452ddf9.setContent(html_0bbada22f24343ad97d9aec04462ea3f);
+            
+
+            circle_marker_b485e161f4aa4e4b93c64040a6e4ec85.bindPopup(popup_3efe80c695fa4059a7a4c1057452ddf9);
+
+            
+        
+    
+            var circle_marker_88acd5c3b5724c3597c0ba64d255d07a = L.circleMarker(
+                [32.9905597,-117.2691316],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_21ca3f82453c4d4eac838cf90b001cea = L.popup({maxWidth: '300'});
+
+            
+                var html_5274f4ae400e429fbe88797335bfd287 = $('<div id="html_5274f4ae400e429fbe88797335bfd287" style="width: 100.0%; height: 100.0%;">Solana Beach - Cluster 1</div>')[0];
+                popup_21ca3f82453c4d4eac838cf90b001cea.setContent(html_5274f4ae400e429fbe88797335bfd287);
+            
+
+            circle_marker_88acd5c3b5724c3597c0ba64d255d07a.bindPopup(popup_21ca3f82453c4d4eac838cf90b001cea);
+
+            
+        
+    
+            var circle_marker_853de684173d41f2bfde1d56cfe5eb9b = L.circleMarker(
+                [33.1958696,-117.3794834],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_94fc5eb170b341fca7c2cee943e855af = L.popup({maxWidth: '300'});
+
+            
+                var html_ed67347aae9a484c83622b2cc6ddfe3a = $('<div id="html_ed67347aae9a484c83622b2cc6ddfe3a" style="width: 100.0%; height: 100.0%;">Oceanside - Cluster 1</div>')[0];
+                popup_94fc5eb170b341fca7c2cee943e855af.setContent(html_ed67347aae9a484c83622b2cc6ddfe3a);
+            
+
+            circle_marker_853de684173d41f2bfde1d56cfe5eb9b.bindPopup(popup_94fc5eb170b341fca7c2cee943e855af);
+
+            
+        
+    
+            var circle_marker_691aebe313fe43bfb98eadbeaf8b2647 = L.circleMarker(
+                [32.6400541,-117.0841955],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_933ff05f120f4cb196dd8af959712eb1 = L.popup({maxWidth: '300'});
+
+            
+                var html_2d6cc16b89c04df1bc652522a611086e = $('<div id="html_2d6cc16b89c04df1bc652522a611086e" style="width: 100.0%; height: 100.0%;">Chula Vista - Cluster 0</div>')[0];
+                popup_933ff05f120f4cb196dd8af959712eb1.setContent(html_2d6cc16b89c04df1bc652522a611086e);
+            
+
+            circle_marker_691aebe313fe43bfb98eadbeaf8b2647.bindPopup(popup_933ff05f120f4cb196dd8af959712eb1);
+
+            
+        
+    
+            var circle_marker_090a995d3f8e4d4db500daf54fefefa0 = L.circleMarker(
+                [32.6781085,-117.0991967],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_fcbfdb0ccf7e469f9320967b358c680d = L.popup({maxWidth: '300'});
+
+            
+                var html_1ab1c236387444489926705a2b8a0254 = $('<div id="html_1ab1c236387444489926705a2b8a0254" style="width: 100.0%; height: 100.0%;">National City - Cluster 0</div>')[0];
+                popup_fcbfdb0ccf7e469f9320967b358c680d.setContent(html_1ab1c236387444489926705a2b8a0254);
+            
+
+            circle_marker_090a995d3f8e4d4db500daf54fefefa0.bindPopup(popup_fcbfdb0ccf7e469f9320967b358c680d);
+
+            
+        
+    
+            var circle_marker_ab7c067d7ca644f4bdc68113a3aff5ef = L.circleMarker(
+                [32.9628234,-117.0358646],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_021ec1b331854dc084e9832e2542a45e = L.popup({maxWidth: '300'});
+
+            
+                var html_2cb5d33171774ede9e87eb745fae04c1 = $('<div id="html_2cb5d33171774ede9e87eb745fae04c1" style="width: 100.0%; height: 100.0%;">Poway - Cluster 0</div>')[0];
+                popup_021ec1b331854dc084e9832e2542a45e.setContent(html_2cb5d33171774ede9e87eb745fae04c1);
+            
+
+            circle_marker_ab7c067d7ca644f4bdc68113a3aff5ef.bindPopup(popup_021ec1b331854dc084e9832e2542a45e);
+
+            
+        
+    
+            var circle_marker_640963936c6344b19a735553ba23d001 = L.circleMarker(
+                [33.1216751,-117.0814849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_83d10a1b984f409b8e5d368c183d6bb5 = L.popup({maxWidth: '300'});
+
+            
+                var html_dc4822aa00664e949be8faad334f7252 = $('<div id="html_dc4822aa00664e949be8faad334f7252" style="width: 100.0%; height: 100.0%;">Escondido - Cluster 0</div>')[0];
+                popup_83d10a1b984f409b8e5d368c183d6bb5.setContent(html_dc4822aa00664e949be8faad334f7252);
+            
+
+            circle_marker_640963936c6344b19a735553ba23d001.bindPopup(popup_83d10a1b984f409b8e5d368c183d6bb5);
+
+            
+        
+    
+            var circle_marker_4b7305451fe949829605eacc35ba08c4 = L.circleMarker(
+                [32.7425516,-117.0314172],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_87437e43d9374d1d8d775dca3f87ac10);
+            
+    
+            var popup_62fad3b4d4394cf6aa8b1f0868eabb7c = L.popup({maxWidth: '300'});
+
+            
+                var html_b0c8398a24264ed09202beb30d59287c = $('<div id="html_b0c8398a24264ed09202beb30d59287c" style="width: 100.0%; height: 100.0%;">Lemon Grove - Cluster 0</div>')[0];
+                popup_62fad3b4d4394cf6aa8b1f0868eabb7c.setContent(html_b0c8398a24264ed09202beb30d59287c);
+            
+
+            circle_marker_4b7305451fe949829605eacc35ba08c4.bindPopup(popup_62fad3b4d4394cf6aa8b1f0868eabb7c);
+
+            
+        
+</script>
